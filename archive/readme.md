@@ -1,4 +1,4 @@
-# Introduction
+# Day 01
 
 ## Computing without computer
 
