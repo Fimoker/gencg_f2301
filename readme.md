@@ -1,4 +1,4 @@
-# Day 1
+# Day 01
 ## Introduction 
 
 
@@ -17,7 +17,7 @@ The second game we played was called "the beach". We placed dots in the middle o
 Getting back into the flow with p5.js. The Idea was to draw the shapes before we actually code them. In our case we drew step by step and implemented it the same way. 
 
 {% raw %}
-<iframe src="https://editor.p5js.org/Fimo/full/qbh8Zaeg5"></iframe>
+<iframe width="100%" height="500" src="https://editor.p5js.org/Fimo/full/qbh8Zaeg5"></iframe>
 {% endraw %}
 
 In my case, I created a triangle filled with bricks. The Idea is pretty simple, because I didnt use any beziershapes or arcs. To use this opportunity to get back my burried knowledge of p5, I created a loop, which rotates the object in a everchanging radius. For the radius I used noise. 
@@ -32,5 +32,5 @@ The X-position of the mouse influences the strokeWidth. The Y-position influence
 
 
 {% raw %}
-<iframe src="https://editor.p5js.org/Fimo/full/yVdr18R8t"></iframe>
+<iframe width="100%" height="500" src="https://editor.p5js.org/Fimo/full/yVdr18R8t"></iframe>
 {% endraw %}  
