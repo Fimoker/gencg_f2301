@@ -8,13 +8,15 @@
 In the Morning we talked about different artists and how generative art became to be. The first assigment was to draw generative Art based on rules. In my case we played "Sprouts", where every point can only touch 3 points. The goal is, that the opposing player can't connect to any points.
 
 The second game we played was called "the beach". We placed dots in the middle of other dots or empty spaces. The goals was to fill the subjective empty spots with a dot. Over time a repetetive image with dots appear. 
-
+![Example Image](content/day01/sketch_1.jpeg)
 
 ## Afternoon
 
 ### Draw and Code
 
 Getting back into the flow with p5.js. The Idea was to draw the shapes before we actually code them. In our case we drew step by step and implemented it the same way. 
+![Example Image](content/day01/sketch_2.jpeg)
+
 
 {% raw %}
 <iframe width="100%" height="500" src="https://editor.p5js.org/Fimo/full/qbh8Zaeg5"></iframe>
