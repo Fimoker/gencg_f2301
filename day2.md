@@ -7,6 +7,11 @@
 ## Draw and Code
 
 
+![Example Image](content/day02/grid_1.PNG)
+
+![Example Image](content/day02/grid_2.PNG)
+
+![Example Image](content/day02/grid_3.PNG)
 
 
 {% raw %}
