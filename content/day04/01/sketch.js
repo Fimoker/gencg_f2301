@@ -5,7 +5,7 @@ let slider;
 function setup() {
   w = windowWidth
   h = windowHeight-100
-  
+  background(150)
    sPoints = createSlider(25, 500, 100);
    sHeight = createSlider(0, 100, 50);
    rColor = createSlider(50, 255, 255);
@@ -19,6 +19,7 @@ function setup() {
 }
 
 function draw() {
+
 
   stroke(255,50)
   strokeWeight(2)
@@ -59,7 +60,7 @@ function circles(){
   
   for (let i = 0; i <= density; i+= 1){
     tt = 1*i/density 
-    x = lerp(x1,h/2,tt)
+    x = lerp(x1,w/2,tt)
     y = lerp(y1,y2,tt)
     point(x,y)
   }

@@ -65,7 +65,36 @@ I felt like this was simple and effective approach. Later on my journey I will a
 
 ## Shapes and Color
 
-Perlin Noise and Contrast
+For the shapes I added a random number. Every loop the number declares what shape will be drawn into the box. the following shapes are possible: circle, diamond, triangle and square. 
+
+``` js 
+
+// picker variable is chosing a random number
+let picker = floor(random(1, 5));
+if (picker == 1) {
+    fill(255, shade, colorPicker) 
+    circle(posX+bWidth/2, posY+bWidth/2, bWidth);
+    circle(posX+bWidth/2, posY+bWidth/2, bWidth/2);
+} else if (picker == 2) {
+    fill(colorPicker, colorPicker, 255)  
+    push();
+    translate(posX + bWidth / 2, posY + bHeight / 2); 
+    rotate(90*floor(random(1,5))); 
+    triangle(-bWidth / 2,-bHeight / 2,bWidth / 2,-bHeight / 2,0,bHeight / 2);
+    pop();
+} else if (picker == 3) {
+    fill("yellow")  
+    push();
+    translate(posX + bWidth / 2, posY + bHeight / 2); 
+    rotate(45); 
+    square(-bWidth/2*.7 ,-bHeight/2*.7 , bWidth*.7);
+    pop();
+} else {
+    fill(colorPicker, shade, colorPicker) 
+    square(posX, posY, bWidth);
+}
+    
+```
 
 
 
