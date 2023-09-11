@@ -1,6 +1,6 @@
 # Day 04
 ## Introduction 
-Topic of the fourth day is "Machine. 
+Topic of the fourth day is "Machine". 
 
 "Create a program that expands, augment, distort, questions, complicate, interpret, improves the act of drawing. Explain what your system is about: is it a tool? A statement? a game? Use your tool to create your original series of at least 3 drawings."
 
