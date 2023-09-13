@@ -4,9 +4,9 @@
 Topic of the fourth day is "Pixels". 
 
 ## Concept
-I wanted to create some sort of bug like in this (example)[wwww]. But first I needed to learn how to manipulate pixels. I have absolute no experience except maybe photoshop. So I have a rough idea, what technically would be possible. So this photoseries shows my progress:
+I wanted to create some sort of bug like in this (example)[wwww]. However, I had no prior experience in pixel manipulation, except for some knowledge gained from using Photoshop. With a rough idea of what might be technically possible, I documented my progress through this photo series:
 
-First I loaded the cup. In my mind it was a good idea to have a image with a white background. So I knew I could filter those empty pixels out. From this point onward I loaded the pixels into my canvas and tried to manipulate it. 
+To start, I loaded an image of a cup. I chose an image with a white background, thinking it would be easier to filter out the empty pixels. From this point on, I began working with the pixels by loading them onto my canvas and experimenting with manipulation. 
 
 #### The image
 ![1](content/day06/cup.jpg)
@@ -20,14 +20,14 @@ First I loaded the cup. In my mind it was a good idea to have a image with a whi
 ![6](content/day06/process_4.png)
 ![7](content/day06/process_5.png)
 #### Adding pixels
-Here I used the x and position and added squares with different color and close coordinates to it. Here sparked the idea of a gradient. 
+At this stage, I added squares with different colors and coordinates, closely resembling the idea of a gradient.
 ![8](content/day06/process_6.png)
 #### Testing with 3d 
-I tested with OrbitControls what happens if I offset or copy pixels and transform them in the Z-Axis
+I conducted tests using OrbitControls to explore what would happen when I offset, copy, and transform pixels in the Z-axis.
 ![9](content/day06/process_7.gif)
 
 #### Pixel Shifting
-Soon after that I wanted to create a image, that works with the depth of the grayscale. The pixels take the average of RGB as a position in the 3d-space
+Subsequently, I aimed to create an image that works with grayscale depth, with pixels representing the average of RGB values as positions in 3D space.
 ![10](content/day06/process_8.gif)
 ![11](content/day06/process_8_1.gif)
 ![12](content/day06/process_9.gif)
