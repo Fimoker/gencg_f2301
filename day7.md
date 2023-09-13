@@ -1,5 +1,5 @@
 
-# Day 06
+# Day 07
 ## Introduction 
 Topic of the fourth day is "Pixels". 
 
