@@ -10,13 +10,10 @@ To start, I loaded an image of a cup. I chose an image with a white background, 
 
 #### The image
 ![1](content/day06/cup.jpg)
-#### Pixels loaded onto the canvas
-![2](content/day06/process.png)
-#### Changing the size of the grid
-![3](content/day06/process_1.png)
-#### Changing pixels based on the their value
+
+
+#### Changing grid size and pixels based on the their value
 ![4](content/day06/process_2.png)
-![5](content/day06/process_3.png)
 ![6](content/day06/process_4.png)
 ![7](content/day06/process_5.png)
 #### Adding pixels
@@ -29,10 +26,11 @@ I conducted tests using OrbitControls to explore what would happen when I offset
 #### Pixel Shifting
 Subsequently, I aimed to create an image that works with grayscale depth, with pixels representing the average of RGB values as positions in 3D space.
 ![10](content/day06/process_8.gif)
-![12](content/day06/process_9.gif)
-![12](content/day06/process10.gif)
+![12](content/day06/process_11.gif)
 
-
+{% raw %}
+<iframe src="content/day06/02/embed.html" width="100%" height="500" frameborder="no"></iframe>
+{% endraw %}
 
 
 #### Ressources

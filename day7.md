@@ -1,13 +1,31 @@
 
 # Day 07
 ## Introduction 
-Topic of the fourth day is "Splitscanning". I felt very inspired by Francois Vogel. But I wasn't sure how to reach something like this
+The topic of the fourth day is "Split-scanning." For the research part, I examined two sources: one is the [list by Golan Levin](https://flong.com/archive/texts/lists/slit_scan/index.html), and I found myself greatly inspired by [François Vogel](https://twitter.com/francois__vogel). I knew this was probably too advanced for now. 
 
+{% raw %}
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">jellyfish cat <a href="https://t.co/TLk78J6jwr">pic.twitter.com/TLk78J6jwr</a></p>&mdash; françois vogel (@francois__vogel) <a href="https://twitter.com/francois__vogel/status/1625861236742328320?ref_src=twsrc%5Etfw">February 15, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{% endraw %}
 
 ## Concept
-At first I wanted to learn how it's done and find inspiration on the my journey. So the first trial was the most basic iteration of splitscanning. Like with everything in p5, Daniel Shiffman probably did a [video](https://www.youtube.com/watch?v=YqVbuMPIRwY&ab_channel=TheCodingTrain) about it.
+Initially, my goal was to understand how it's done and gather inspiration during my journey. Therefore, my first attempt was the most basic iteration of split scanning. As with many things in p5, there's likely a [video](https://www.youtube.com/watch?v=YqVbuMPIRwY&ab_channel=TheCodingTrain) by Daniel Shiffman explaining it. 
 
+```js
+  video = createCapture(VIDEO)
+  video.size(320,240)
+  video.loadPixels()
+  var w = video.width
+  var h = video.height
+
+  //copy (source, sx, sy , sw, sh, dx, dy, dw, dh)
+  copy(video, w/2,0,1,h,x,0,1,h)
+  
+  x += 1
+  
+  if (x > width ){
+    x = 0
+  }
+```
 
 ![0](content/day07/slitscan.png)
 ![1](content/day07/splitscanning_.gif)
@@ -15,7 +33,8 @@ At first I wanted to learn how it's done and find inspiration on the my journey.
 
 
 ### Mixing techniques
-After the last iteration, I found that little distances create an interesting pattern. Somewhat chaotic. I wanted to break up the left to right movement and get somewhat more of a overall "movement". I remembered the technique from day 6, which [Generative Gestaltung](https://editor.p5js.org/generative-design/sketches/P_4_1_2_01) did. It takes random parts of the image and offset them a bit. It done with a combination of set() and get(). 
+After the last iteration, I discovered that small distances could create an intriguing and somewhat chaotic pattern. I aimed to break away from the purely left-to-right movement and introduce a more overall sense of "movement." I recalled a technique from day 6, demonstrated by [Generative Gestaltung](https://editor.p5js.org/generative-design/sketches/P_4_1_2_01), which involves taking random parts of the image and offsetting them slightly. This is achieved through a combination of the set() and get() functions
+
 
 ```js
 // coordinates where its going to be placed

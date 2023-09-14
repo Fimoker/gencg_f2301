@@ -1,12 +1,12 @@
 
 function setup() {
-  createCanvas(500, 500, WEBGL);
+  createCanvas(1000, 1000, WEBGL);
   rectMode(CORNER)
 }
 
 let img;
 function preload() {
-  img = loadImage('tree.jpg');
+  img = loadImage('tree2.jpeg');
   print(img.width, img.height)
 }
 
@@ -23,7 +23,7 @@ function draw() {
 function imageCreate(){
   let w = width / img.width
   let h = height / img.height
-  let size = 8
+  let size = 10
 
   img.loadPixels()
   for (let i = 0; i < img.width; i+= size){
@@ -42,9 +42,9 @@ function imageCreate(){
       } else {
 
       push()
-        fill(avg)
-        translate(0,0,-b*2)
-        circle(i*w+1, j*h+1, size)
+        fill(r,g,b)
+        translate(0,0,-avg*0.7)
+        circle(i*w+1, j*h+1, size+avg)
       pop()
     }
   }
