@@ -6,7 +6,7 @@ function setup() {
 
 let img;
 function preload() {
-  img = loadImage('cup.jpg');
+  img = loadImage('tree.jpg');
   print(img.width, img.height)
 }
 

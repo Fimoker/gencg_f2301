@@ -29,8 +29,8 @@ I conducted tests using OrbitControls to explore what would happen when I offset
 #### Pixel Shifting
 Subsequently, I aimed to create an image that works with grayscale depth, with pixels representing the average of RGB values as positions in 3D space.
 ![10](content/day06/process_8.gif)
-![11](content/day06/process_8_1.gif)
 ![12](content/day06/process_9.gif)
+![12](content/day06/process10.gif)
 
 
 
