@@ -71,7 +71,7 @@ After reading the documentation, I tried using orbitalControls, but the performa
 ![](content/day03/clock_orbit.gif)
 
 {% raw %}
-<iframe src="content/day03/01/embed.html" width="100%" height="450" frameborder="no"></iframe>
+<iframe src="content/day03/01/embed.html" width="100%" height="600" frameborder="no"></iframe>
 {% endraw %}
 
 [Code](https://editor.p5js.org/Fimo/sketches/gbDjPk3XT)

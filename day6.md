@@ -27,10 +27,10 @@ I conducted tests using OrbitControls to explore what would happen when I offset
 Subsequently, I aimed to create an image that works with grayscale depth, with pixels representing the average of RGB values as positions in 3D space.
 ![10](content/day06/process_8.gif)
 ![12](content/day06/process_11.gif)
+![12](content/day06/process_12.gif)
 
-{% raw %}
-<iframe src="content/day06/02/embed.html" width="100%" height="500" frameborder="no"></iframe>
-{% endraw %}
+
+[Last Iteration](/content/day06/02/embed.html)
 
 
 #### Ressources
