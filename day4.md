@@ -35,3 +35,7 @@ After binding the Y-position of one circle to the center of the screen, I felt l
 
 In my final version I added sliders for amount of interpolation, height of circle, and values for RGB. 
 
+![Example Image](content/day04/maschine_final_1.png)
+![Example Image](content/day04/maschine_final_4.png)
+![Example Image](content/day04/maschine_final_3.png)
+![Example Image](content/day04/maschine_final_5.png)
