@@ -57,16 +57,14 @@ function imageCreate(){
           pop()
           pop()
         } else {
-  
         push()
         fill(r,g,b)
         translate(i*w, j*h,-g)
         box(size, size, avg)
         pop()
       }
-
+    }
   }
- }
 }
 
 function keyPressed() {

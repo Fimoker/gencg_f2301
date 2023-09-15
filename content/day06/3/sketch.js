@@ -37,9 +37,6 @@ function imageCreate(){
       const avg = (r + g + b) / 3
       noStroke()
          
-      // circle(i*w, j*h, size)
-      // fill(255-2,g,1)
-
         push()
         fill(r,g,b)
         translate(i*w, j*h,g/4*cos(xpos))

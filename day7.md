@@ -57,9 +57,15 @@ set(x2, y2, get(x1, y1, w, h));
 
 
 ![4](content/day07/splitscanning_4.gif)
+
+### Continuous
+I felt like that all iterations to this point were very linear. So I tried to create something radial. 
+
 ![5](content/day07/splitscanning_5.gif)
 ![6](content/day07/splitscanning_6.gif)
 
+### Thoughts
+I think, it would be a interesting idea for video editing, concert visuals or installation. Usually in my work the output needs to look the same all the time. But with the camera as input it makes it difficult to control. 
 
 #### Ressources
 [Image Processing](https://idmnyu.github.io/p5.js-image/index.html) \
