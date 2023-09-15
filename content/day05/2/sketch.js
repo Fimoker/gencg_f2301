@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(1500, 1000);
+  createCanvas(1500, 700);
   frameRate(1)
   rectMode(CENTER)
   ellipseMode(CENTER)
@@ -15,14 +15,20 @@ let backgroundColor = ["#0A0D40", "#F4E2DE"]
 function draw() {
 
   let eyeMin = 70
-  let eyeMax = 180
+  let eyeMax = 140
   let eyePicker = random([1,2,3])
   let themePicker = random(backgroundColor)
+  console.log(themePicker)
   let bodycolor = random(bodycolorArr)
   background(themePicker);
-  console.log(themePicker)
+  if (themePicker == "#0A0D40"){
+    stroke("#F4E2DE")
+  } else if (bodycolor == "#0A0D40"){
+    stroke("#F4E2DE")
+  } else {
+    stroke("#0A0D40")
+  }
 
-  stroke(255)
   fill("#FF9800")
   strokeCap(ROUND)
   strokeJoin(ROUND)
@@ -32,10 +38,10 @@ function draw() {
 
   shoulder(bodycolor)
   head()
-  mouth()
+  
   eyeLeft(eyecolor, eyeMin,eyeMax, eyePicker, bodycolor)
   eyeRight(eyecolor, eyeMin,eyeMax, eyePicker, bodycolor)
-
+  mouth()
   
   angleMode(RADIANS)
   eyebrowsLeft(eyeMin,eyeMax)
@@ -91,7 +97,7 @@ function eyebrowsRight(eyeMin,eyeMax){
 }
 
 function eyeLeft(eyecolor, eyeMin,eyeMax, eyePicker, bodycolor) {
-  x = width/2 * .85
+  x = width/2 * .8
   y = height / 2
   let widthEye = random(eyeMin, eyeMax)
 
@@ -117,7 +123,7 @@ function eyeLeft(eyecolor, eyeMin,eyeMax, eyePicker, bodycolor) {
 }
 
 function eyeRight(eyecolor, eyeMin,eyeMax, eyePicker, bodycolor) {
-  x = width/2 * 1.15
+  x = width/2 * 1.2
   y = height / 2
   let widthEye = random(eyeMin, eyeMax)
 
@@ -145,19 +151,23 @@ function mouth(){
   angleMode(DEGREES)
   // arc(width/2, height-height/3, random(width/3), random(width/2), 180,200, PIE);
   // arc(width/2, height-height/3, random(width/3), 400, 180,200, PIE);
+  push()
+  translate(0, random(-10,40))
   arc(width/2, height-height/3, random(100,300), random(150,400), 240,300);
+  pop()
 }
 
 function shoulder(bodycolor){
   x1 = random(-20, 20)
   x2 = random(-30, 20)
   fill(bodycolor)
-  
+
   quad(
     0,height, 
     width,height, 
     width/2, height/2, 
     300+x2,height-height/3+x2 )
+   
 }
 
 
