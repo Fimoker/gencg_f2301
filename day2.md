@@ -1,6 +1,5 @@
 # Day 02
 ## Introduction 
-
 The topic of the second day is "Grid". I wanted to work with different geometric shapes and color. A big inspiration was this grid from Fabio Franchino. I liked they way the cubes are getting divided.
 
 

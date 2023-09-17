@@ -1,7 +1,6 @@
 # Day 03
 ## Introduction 
-
-The topic of the day is "CLOCK." The assignment was to create a concept for a clock. I once created a clock in p5, but my issue at that time was that I didn't implement a loop. My clock was quite linear.
+The topic of the third day is "CLOCK." The assignment was to create a concept for a clock. I once created a clock in p5, but my issue at that time was that I didn't implement a loop. My clock was quite linear.
 
 ## Concept
 I immediately thought of tree rings. Trees usually have rings that indicate their age and the quality of the year they've had. For my concept, I used these rings to represent hours. From the outset, I knew there were two things to consider: creating vertex points based on the hour and adding some noise for an organic feel.

@@ -1,7 +1,7 @@
 
 # Day 06
 ## Introduction 
-Topic of the fourth day is "Pixels". 
+Topic of the sixth day is "Pixels". 
 
 ## Concept
 I wanted to create some sort of bug like in this (example)[wwww]. However, I had no prior experience in pixel manipulation, except for some knowledge gained from using Photoshop. With a rough idea of what might be technically possible, I documented my progress through this photo series:

@@ -1,7 +1,7 @@
 
 # Day 07
 ## Introduction 
-The topic of the fourth day is "Split-scanning." For the research part, I examined two sources: one is the [list by Golan Levin](https://flong.com/archive/texts/lists/slit_scan/index.html), and I found myself greatly inspired by [François Vogel](https://twitter.com/francois__vogel). I knew this was probably too advanced for now. 
+The topic of the seventh day is "Split-scanning." For the research part, I examined two sources: one is the [list by Golan Levin](https://flong.com/archive/texts/lists/slit_scan/index.html), and I found myself greatly inspired by [François Vogel](https://twitter.com/francois__vogel). I knew this was probably too advanced for now. 
 
 {% raw %}
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">jellyfish cat <a href="https://t.co/TLk78J6jwr">pic.twitter.com/TLk78J6jwr</a></p>&mdash; françois vogel (@francois__vogel) <a href="https://twitter.com/francois__vogel/status/1625861236742328320?ref_src=twsrc%5Etfw">February 15, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
