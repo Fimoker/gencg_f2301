@@ -32,6 +32,7 @@ Subsequently, I aimed to create an image that works with grayscale depth, with p
 ![12](content/day06/process_12.gif)
 ![13](content/day06/process_13.gif)
 ![14](content/day06/process_14.gif)
+![14](content/day06/process_15.gif)
 
 #### Code 
 Here you can check out the code for my iterations.\
@@ -39,7 +40,6 @@ Here you can check out the code for my iterations.\
 [Cup Pixel with z dimension](https://editor.p5js.org/Fimo/sketches/fSEdCAUDc)\
 [Blocks with dimensions](https://editor.p5js.org/Fimo/sketches/IuUERcbKX)\
 [Switching pixels with hover](https://editor.p5js.org/Fimo/sketches/XOium6fon)
-
 
 #### Ressources
 [Image Processing](https://idmnyu.github.io/p5.js-image/index.html) \
