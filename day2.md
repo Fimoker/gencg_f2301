@@ -100,19 +100,17 @@ if (picker == 1) {
 
 ## Animation
 For the animation I set the framerate to 1 and changed the subdivision of the boxes. So every second a new image appears with different shapes, colors and sizes. It loops from very small to very big and so on. 
+
 ![Grid Gif](content/day02/grid_final.gif)
 
 
-## Code
-If you want to check out the code
+#### Code
+Here you can check out the [code](https://editor.p5js.org/Fimo/sketches/m0jzQCZGl)
 
-{% raw %}
-<iframe src="content/day01/01/embed.html" width="100%" height="450" frameborder="no"></iframe>
-{% endraw %}
 
 #### Ressources
 [Article about Subdividing Grids](https://medium.com/@misha.studio/process-ing-generative-irregular-grid-8f0d712dfaa4) \
-[Coding Example for Subdividing Grids in p5](https://editor.p5js.org/AhmadMoussa/sketches/b3xyreznH) \
+[Coding Example for Subdividing Grids in p5](https://editor.p5js.org/AhmadMoussa/sketches/b3xyreznH)
 
 
 #### Variations

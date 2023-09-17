@@ -67,6 +67,17 @@ I felt like that all iterations to this point were very linear. So I tried to cr
 ### Thoughts
 I think, it would be a interesting idea for video editing, concert visuals or installation. Usually in my work the output needs to look the same all the time. But with the camera as input it makes it difficult to control. 
 
+
+### Code 
+Here you can check out the code for all iterations.\
+[Code 1](https://editor.p5js.org/Fimo/sketches/xW6RZt5GJ)\
+[Code 2](https://editor.p5js.org/Fimo/sketches/rbOEqM4DM)\
+[Code 3](https://editor.p5js.org/Fimo/sketches/J0sG3RFzZ)\
+[Code 4](https://editor.p5js.org/Fimo/sketches/L_MDZpIG8)\
+[Code 5](https://editor.p5js.org/Fimo/sketches/GmD1u-3BW)\
+[Code 6](https://editor.p5js.org/Fimo/sketches/-LRBHceVs)
+
+
 #### Ressources
 [Image Processing](https://idmnyu.github.io/p5.js-image/index.html) \
 [Generative Gestaltung](http://www.generative-gestaltung.de/2/) \

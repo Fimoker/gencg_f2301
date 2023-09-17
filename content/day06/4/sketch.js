@@ -55,7 +55,6 @@ function imageCreate(){
           translate(i*w, j*h,-g)
           box(size, size, avg)
           pop()
-          pop()
         } else {
         push()
         fill(r,g,b)

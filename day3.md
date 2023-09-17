@@ -70,17 +70,15 @@ After reading the documentation, I tried using orbitalControls, but the performa
 
 ![](content/day03/clock_orbit.gif)
 
-{% raw %}
-<iframe src="content/day03/01/embed.html" width="100%" height="600" frameborder="no"></iframe>
-{% endraw %}
 
-[Code](https://editor.p5js.org/Fimo/sketches/gbDjPk3XT)
+#### Code
+Here you can check out the [code](https://editor.p5js.org/Fimo/sketches/gbDjPk3XT)
 
-### Sources
+#### Sources
 Looping Noise:\
 [Guillaume's Example on looping Noise](https://editor.p5js.org/guma/sketches/0hvdq_lsW) 
 [Blogpost on looping Noise](https://necessarydisorder.wordpress.com/2017/11/15/drawing-from-noise-and-then-making-animated-loopy-gifs-from-there/)
 
 
-Inspiration\
+#### Inspiration
 [AM (Arctic Monkeys album)](https://en.wikipedia.org/wiki/AM_%28Arctic_Monkeys_album%29)
