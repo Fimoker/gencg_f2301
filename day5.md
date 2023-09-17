@@ -11,7 +11,9 @@ I'll create a function for each facial component and incorporate randomness into
 ![Face 1](content/day05/face.gif)
 ![Face 2](content/day05/face2.gif)
 
-During my experiments, I noticed that the closed mouth resembled a bird's beak. In subsequent iterations, I fine-tuned the values. For the head, I introduced a random anchor point to break away from the rectangular shape.
+During my experiments, I noticed that the closed mouth resembled a bird's beak. In subsequent iterations, I fine-tuned the values. For the head, I introduced a random anchor point to break away from the rectangular shape. I wanted to follow the bird idea because the beak is usually of intergrated in my sketches.
+
+![Sketches](content/day05/birdsketches.png)
 
 ![Face 3](content/day05/face3.gif)
 ![Face 4](content/day05/face4.gif)
@@ -33,7 +35,8 @@ A fortunate coincidence occurred when the screen width affected the width of the
 ![Face 6](content/day05/face6.gif)
 ![Face 7](content/day05/face7.gif)
 
-#### Variations
+#### Code
 [Variation 1](https://editor.p5js.org/Fimo/sketches/QFqQVN9CX) \
 [Variation 2](https://editor.p5js.org/Fimo/sketches/MCX2_aodc) \
-[Variation 3](https://editor.p5js.org/Fimo/sketches/NXjsbFScq) 
+[Variation 3](https://editor.p5js.org/Fimo/sketches/NXjsbFScq) \
+[Variation 4](https://editor.p5js.org/Fimo/sketches/pQppFgRb8) 
